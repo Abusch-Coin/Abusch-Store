@@ -4,15 +4,39 @@
 <head>
   <meta charset="UTF-8">
   <title>Abusch-Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      color: #333;
+    }
+    .download-button {
+      display: inline-block;
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 24px;
+      margin: 10px;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+    .download-button:hover {
+      background-color: #45a049;
+    }
+  </style>
 </head>
 <body>
   <h1>🛍️ Abusch-Store</h1>
-  <p>Willkommen im offiziellen App-Store von Abusch!</p>
+  <p>Willkommen im offiziellen App-Store von Abusch!<br>Hier kannst du deine Apps herunterladen:</p>
 
-  <h2>📦 Verfügbare Downloads</h2>
-  <ul>
-    <li><a href="files/abusch-app-1.apk" download>Abusch App 1 (APK)</a></li>
-    <li><a href="files/abusch-app-2.apk" download>Abusch App 2 (APK)</a></li>
-  </ul>
+  <div>
+    <a class="download-button" href="abusch-app-1.apk" download>⬇️ Abusch App 1 herunterladen</a><br>
+    <a class="download-button" href="abusch-app-2.apk" download>⬇️ Abusch App 2 herunterladen</a>
+  </div>
 </body>
 </html>
